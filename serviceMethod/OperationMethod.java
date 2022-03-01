@@ -39,7 +39,7 @@ public class OperationMethod {
 			}
 			return hashMap;
 		default:
-			log.info("Wrong input given");
+			System.out.println("Wrong input given");
 
 		}
 		return null;	
@@ -77,7 +77,7 @@ public class OperationMethod {
 			return hashMap;
 
 		default:
-			log.info("Wrong input given");                                                   //if user give the other input than given then it will be comes in the default case
+			System.out.println("Wrong input given");                                                   //if user give the other input than given then it will be comes in the default case
 		}
 		return null;
 
