@@ -39,7 +39,7 @@ public class OperationMethod {
 			}
 			return hashMap;
 		default:
-			System.out.println("Wrong input given");
+			log.info("Wrong input given");
 
 		}
 		return null;	
@@ -72,12 +72,12 @@ public class OperationMethod {
 					System.out.println(word);
 					hashMap.put(fileName, word);
 				}
-				System.out.println(" ");
+				log.info(" ");
 			}
 			return hashMap;
 
 		default:
-			System.out.println("Wrong input given");                                                   //if user give the other input than given then it will be comes in the default case
+			log.info("Wrong input given");                                                   //if user give the other input than given then it will be comes in the default case
 		}
 		return null;
 
