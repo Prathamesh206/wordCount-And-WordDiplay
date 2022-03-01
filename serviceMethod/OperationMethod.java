@@ -69,7 +69,7 @@ public class OperationMethod {
 				System.out.println(fileName);
 				ArrayList<String> wordList=file.getValue();
 				for(String word:wordList) {
-					System.out.println(word);
+					
 					hashMap.put(fileName, word);
 				}
 				System.out.println(" ");
