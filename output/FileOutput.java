@@ -35,11 +35,12 @@ public class FileOutput {
 			ArrayList<String> words=files.getValue();
 		
 			allWords.addAll(words);
-			Collections.sort(allWords);
+			
 			
 
 
 		}
+		Collections.sort(allWords);
 		FileInput.txtFileDisplay(allWords);
 
 	}
